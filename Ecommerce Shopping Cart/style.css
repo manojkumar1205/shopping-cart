@@ -56,8 +56,8 @@ body {
     padding: 15px 40px;
     border-radius: 5px;
     border: 0.9px solid #c8c8c8;
-    /* box-shadow: 0 15px 25px rgba(0,0,50,0.2); */
 }
+
 /* Toggle  */
 .toggle {
     width: 100%;
@@ -74,19 +74,10 @@ body {
     padding: 15px 0;
 }
 
-/* .ouline {
-    border: 0.9px solid #007f61;
-} */
-
-
 input[type='radio'] {
     accent-color: rgba(0, 127, 97, 1);
 }
 
-/* .toggle.toggle-head-offer-strike {
-    display: flex;
-    align-self: flex-end;
-} */
 select {
     width: 67px;
     appearance: none;
@@ -116,7 +107,6 @@ select {
 .toggle-head-price {
     width: 30%;
     text-align: left;
-    /* padding: 0 15% 0 0; */
 }
 
 .toggle-head-offer {
@@ -127,10 +117,7 @@ select {
 
 .toggle-head-offer-strike {
     width: 30%;
-    /* display: flex; */
-    align-self: end;
-    /* text-align: right;
-    font-weight: 600; */
+    align-self: end; 
 }
 
 .price {
@@ -162,7 +149,6 @@ select {
 }
 
 .center {
-    /* display: inline-block; */
     text-align: start;
 }
 
@@ -198,7 +184,6 @@ select {
 .order-cart {
     margin-top: 3%;
     width: 100%;
-    /* border: 1px solid #007f61; */
     border-radius: 4px;
     text-align: center;
     padding: 15px;
