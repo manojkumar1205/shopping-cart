@@ -1,12 +1,10 @@
 let toggles = document.getElementsByClassName('toggle');
 let contentDiv = document.getElementsByClassName('content');
-
 var wrapper = document.getElementsByClassName('wrapper');
 var radio = document.getElementsByClassName('radio');
+
 for (let i = 0; i < toggles.length; i++) {
     toggles[i].addEventListener('click', () => {
-
-
 
         if (parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight) {
             contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
@@ -18,9 +16,8 @@ for (let i = 0; i < toggles.length; i++) {
             contentDiv[i].style.height = "0px";
             wrapper[i].style.background = "#fff"
             wrapper[i].style.border = "1px solid #c8c8c8";
-
-
         }
+        
         for (let j = 0; j < contentDiv.length; j++) {
             if (j !== i) {
                 console.log(j, "J");
@@ -31,5 +28,6 @@ for (let i = 0; i < toggles.length; i++) {
                 wrapper[j].style.border = "1px solid #c8c8c8";
             }
         }
+        
     });
 }
